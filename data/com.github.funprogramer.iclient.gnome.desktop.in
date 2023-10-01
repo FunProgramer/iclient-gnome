@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=iClient
+GenericName=Unofficial IServ Client
+GenericName[de_DE]=Unoffizieller IServ Client
+Comment=A Gnome App to integrate IServ School-Server into the Gnome Desktop Environment
+Comment[de_DE]=Eine Gnome App um den IServ Schulserver in die Gnome Desktop Umgebung zu integrieren
+Exec=iclient-gnome
+Icon=com.github.funprogramer.iclient.gnome
+Terminal=false
+Type=Application
+Categories=Gnome;GTK;Education;Network;
+StartupNotify=true

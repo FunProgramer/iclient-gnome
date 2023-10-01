@@ -1,0 +1,4 @@
+data/com.github.funprogramer.iclient.gnome.desktop.in
+data/com.github.funprogramer.iclient.gnome.appdata.xml.in
+data/com.github.funprogramer.iclient.gnome.gschema.xml
+src/window.ui

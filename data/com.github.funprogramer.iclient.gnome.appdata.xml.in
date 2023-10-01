@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>com.github.funprogramer.iclient.gnome.desktop</id>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>MIT</project_license>
+	<description>
+	  <p>A Gnome App to integrate
+	    <a href="https://www.iserv.eu">IServ School-Server</a>
+	    into the Gnome Desktop Environment (and other desktop envirements,
+	    that use Gnome Libraries)
+	  </p>
+	  <p>
+	    <em>This project is NOT an official project of the IServ GmbH.
+	    The official icon is used under special permission.</em>
+	  </p>
+	  <h3>Features: </h3>
+	  <ul>
+	    <li>Store Credentials</li>
+	    <li>Interface that integrates the web interface</li>
+	  </ul>
+	</description>
+</component>
