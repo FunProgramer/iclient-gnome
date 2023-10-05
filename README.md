@@ -1,4 +1,8 @@
-<center>![iClient App Icon](/data/icons/hicolor/scalable/apps/com.github.funprogramer.iclient.gnome.svg)</center>
+<center>
+
+![iClient App Icon](/data/icons/hicolor/scalable/apps/com.github.funprogramer.iclient.gnome.svg)
+
+</center>
 
 # iClient for Gnome
 A Gnome App to integrate [IServ School-Server](https://www.iserv.eu) into the Gnome Desktop Environment
