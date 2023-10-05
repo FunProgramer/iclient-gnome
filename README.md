@@ -1,7 +1,5 @@
 <center>
-
 ![iClient App Icon](/data/icons/hicolor/scalable/apps/com.github.funprogramer.iclient.gnome.svg)
-
 </center>
 
 # iClient for Gnome
