@@ -1,5 +1,6 @@
 use gtk::prelude::*;
 use adw::subclass::prelude::*;
+use webkit6::{prelude::*, WebView};
 use gtk::{gio, glib};
 
 mod imp {
@@ -12,7 +13,7 @@ mod imp {
         #[template_child]
         pub header_bar: TemplateChild<gtk::HeaderBar>,
         #[template_child]
-        pub label: TemplateChild<gtk::Label>,
+        pub web_view_container: TemplateChild<gtk::ScrolledWindow>,
     }
 
     #[glib::object_subclass]
@@ -30,7 +31,16 @@ mod imp {
         }
     }
 
-    impl ObjectImpl for IClientGnomeWindow {}
+    impl ObjectImpl for IClientGnomeWindow {
+        fn constructed(&self) {
+            self.parent_constructed();
+
+            let web_view = WebView::new();
+            web_view.load_uri("https://community.iserv.eu");
+            web_view.set_vexpand(true);
+            self.web_view_container.set_child(Some(&web_view));
+        }
+    }
     impl WidgetImpl for IClientGnomeWindow {}
     impl WindowImpl for IClientGnomeWindow {}
     impl ApplicationWindowImpl for IClientGnomeWindow {}
