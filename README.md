@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> **Currently useless**
+> **Currently useless** \
 > This project is currently not in development and is in a very early state with nearly no features.
 
 ![iClient App Icon](/data/icons/hicolor/scalable/apps/com.github.funprogramer.iclient.gnome.svg)
